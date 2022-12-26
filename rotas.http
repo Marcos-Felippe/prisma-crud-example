@@ -1,0 +1,31 @@
+GET http://localhost:3333/product/c5eaa897-a501-4cde-948a-57236461ee4a
+
+###
+GET http://localhost:3333/category/
+
+###
+POST http://localhost:3333/product
+content-type: application/json
+
+{
+    "name": "Smathphone",
+    "bar_code": "84984515198",
+    "price": 2000
+}
+
+###
+POST http://localhost:3333/category
+content-type: application/json
+
+{
+    "name": "eletronic"
+}
+
+###
+POST http://localhost:3333/categoryProduct
+content-type: application/json
+
+{
+    "id_product": "c5eaa897-a501-4cde-948a-57236461ee4a",
+    "id_category": "2145cb5f-934d-4617-bcd1-97f21acba48f"
+}

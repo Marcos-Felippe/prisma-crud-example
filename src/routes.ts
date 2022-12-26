@@ -1,11 +1,11 @@
 
 import { Router } from "express";
-import { CreateProductController } from "./controllers/CreateProductController";
-import { CreateCategoryController } from "./controllers/CreateCategoryController";
-import { CreateProductCategoryController } from "./controllers/CreateProductCategoryController";
+import { CreateProductController } from "./controllers/CreateProduct";
+import { CreateCategoryController } from "./controllers/CreateCategory";
+import { CreateProductCategoryController } from "./controllers/CreateProductCategory";
 import { CreateProductWithExistCategory } from "./controllers/CreateProductWithExistCategory";
-import { FindCategoryController } from "./controllers/FindCategoryController";
-import { FindProductController } from "./controllers/FindProductController";
+import { FindCategoryController } from "./controllers/FindCategory";
+import { FindProductController } from "./controllers/FindProduct";
 
 const router = Router();
 
